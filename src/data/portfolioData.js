@@ -14,7 +14,7 @@ export const personal = {
   bio: "Java Full Stack Developer and B.Tech CSE student trained at TAP Academy. Experienced in developing Spring Boot and Gemini AI web applications, REST APIs, and responsive frontends with a strong foundation in Java, OOP, DSA, and MySQL.",
   summary: "Structured Java Full Stack background covering Java, OOP, Spring Boot, Hibernate, REST APIs, and MySQL at TAP Academy.",
   availability: "Immediate / Full-time Opportunities & Internships",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
 }
 
 export const academy = {
@@ -163,7 +163,7 @@ export const contactInfo = {
     { label: "WHATSAPP COMM", value: "+91 7654626537", href: "https://wa.me/917654626537" },
     { label: "LINKEDIN NETWORK", value: "linkedin.com/in/talimuddin-4725292b3", href: "https://www.linkedin.com/in/talimuddin-4725292b3/" },
     { label: "GITHUB PROFILE", value: "github.com/Talimuddin", href: "https://github.com/Talimuddin" },
-    { label: "OFFICIAL RESUME", value: "View / Download PDF", href: "/resume.pdf" },
+    { label: "OFFICIAL RESUME", value: "View / Download PDF", href: `${import.meta.env.BASE_URL}resume.pdf` },
     { label: "ACADEMY AFFILIATION", value: "TAP Academy Intern", href: "https://thetapacademy.com/" },
   ],
   telemetry: {
