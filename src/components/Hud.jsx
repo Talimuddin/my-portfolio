@@ -71,6 +71,15 @@ export default function Hud() {
               {link.label}
             </a>
           ))}
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="px-2.5 py-1 bg-signal/15 border border-signal/40 text-signal hover:bg-signal hover:text-ink font-semibold tracking-wider text-[10px] transition-colors inline-flex items-center gap-1"
+          >
+            <span>RESUME</span>
+            <span>↗</span>
+          </a>
         </nav>
 
         {/* Right Telemetry: Time & Scroll percentage */}

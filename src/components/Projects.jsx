@@ -1,7 +1,7 @@
 import { projects } from '../data/portfolioData'
 
 // Dynamic project asset loader
-const projectImages = import.meta.glob('../assets/projects/project-*.{png,jpg,jpeg,webp}', {
+const projectImages = import.meta.glob('../assets/projects/project-*.{png,jpg,jpeg,webp,svg}', {
   eager: true,
 })
 

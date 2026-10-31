@@ -78,7 +78,7 @@ export default function About() {
                 {personal.bio}
               </p>
               <p className="text-dim text-base font-sans leading-relaxed">
-                Undergoing structured Java Full Stack training at {academy.name}, mastering Core Java, Object-Oriented Programming (OOP), Data Structures & Algorithms, Spring Boot, Hibernate, and full-lifecycle web application engineering.
+                Undergoing structured Java Full Stack training at {academy.name}, mastering Java, Object-Oriented Programming (OOP), Data Structures & Algorithms, Spring Boot, Hibernate, and full-lifecycle web application engineering.
               </p>
             </div>
 

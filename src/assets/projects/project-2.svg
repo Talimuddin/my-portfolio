@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 788" width="1400" height="788">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(232, 230, 223, 0.05)" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff5b1f" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#08090c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1400" height="788" fill="#08090c"/>
+  <rect width="1400" height="788" fill="url(#grid)"/>
+  <circle cx="700" cy="394" r="450" fill="url(#glow)"/>
+
+  <!-- Outer HUD Frame -->
+  <rect x="40" y="40" width="1320" height="708" fill="#0f1116" fill-opacity="0.6" stroke="rgba(232, 230, 223, 0.1)" stroke-width="1"/>
+  
+  <!-- Corner Brackets -->
+  <path d="M 40 70 L 40 40 L 70 40" fill="none" stroke="#ff5b1f" stroke-width="3"/>
+  <path d="M 1330 40 L 1360 40 L 1360 70" fill="none" stroke="#ff5b1f" stroke-width="3"/>
+  <path d="M 40 718 L 40 748 L 70 748" fill="none" stroke="#ff5b1f" stroke-width="3"/>
+  <path d="M 1330 748 L 1360 748 L 1360 718" fill="none" stroke="#ff5b1f" stroke-width="3"/>
+
+  <!-- Telemetry Header -->
+  <text x="70" y="85" fill="#8a8f98" font-family="'JetBrains Mono', monospace" font-size="14" letter-spacing="3">SYS-02 // JAVA OBJECT-ORIENTED ENGINE</text>
+  <text x="1100" y="85" fill="#ff5b1f" font-family="'JetBrains Mono', monospace" font-size="14" letter-spacing="2">MODE: HUMAN_VS_AI</text>
+
+  <!-- 3x3 Game Board Grid Center -->
+  <g transform="translate(530, 200)">
+    <!-- Board Lines -->
+    <line x1="113" y1="20" x2="113" y2="360" stroke="#ff5b1f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="226" y1="20" x2="226" y2="360" stroke="#ff5b1f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20" y1="133" x2="320" y2="133" stroke="#ff5b1f" stroke-width="3" stroke-linecap="round"/>
+    <line x1="20" y1="246" x2="320" y2="246" stroke="#ff5b1f" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Cell 0,0: X (Orange) -->
+    <path d="M 42 52 L 92 102 M 92 52 L 42 102" stroke="#ff5b1f" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Cell 0,1: O (Bone) -->
+    <circle cx="170" cy="77" r="28" fill="none" stroke="#e8e6df" stroke-width="6"/>
+
+    <!-- Cell 1,1: X (Orange) -->
+    <path d="M 145 165 L 195 215 M 195 165 L 145 215" stroke="#ff5b1f" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Cell 1,2: O (Bone) -->
+    <circle cx="273" cy="190" r="28" fill="none" stroke="#e8e6df" stroke-width="6"/>
+
+    <!-- Cell 2,0: O (Bone) -->
+    <circle cx="67" cy="303" r="28" fill="none" stroke="#e8e6df" stroke-width="6"/>
+
+    <!-- Cell 2,2: X (Orange) -->
+    <path d="M 248 278 L 298 328 M 298 278 L 248 328" stroke="#ff5b1f" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Winning Line across diagonal -->
+    <line x1="25" y1="35" x2="315" y2="345" stroke="#ff5b1f" stroke-width="4" stroke-dasharray="8 6"/>
+  </g>
+
+  <!-- Title & Subtitle Bottom -->
+  <text x="700" y="630" text-anchor="middle" fill="#e8e6df" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="34" letter-spacing="1">TIC-TAC-TOE STRATEGIC ENGINE</text>
+  <text x="700" y="670" text-anchor="middle" fill="#8a8f98" font-family="'JetBrains Mono', monospace" font-size="15" letter-spacing="2">ABSTRACT PLAYER CLASS // INHERITANCE // POLYMORPHISM // WIN DETECTION</text>
+</svg>

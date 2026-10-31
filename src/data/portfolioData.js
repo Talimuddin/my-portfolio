@@ -1,5 +1,5 @@
 /**
- * Portfolio Data Source — Talimuddin's Official Resume Data
+ * Portfolio Data Source — Talimuddin's Official Portfolio & Resume Data
  */
 
 export const personal = {
@@ -11,18 +11,19 @@ export const personal = {
   email: "talimuddin2000@gmail.com",
   location: "Bokaro, Jharkhand // Bangalore",
   coordinates: "23.6693° N, 86.1511° E",
-  bio: "Java Full Stack Developer and B.Tech CSE student trained at TAP Academy. Experienced in developing Spring Boot and Gemini AI web applications, REST APIs, and responsive frontends with a strong foundation in Core Java, OOP, DSA, and MySQL.",
-  summary: "Structured Java Full Stack background covering Core Java, OOP, Spring Boot, Hibernate, REST APIs, and MySQL at TAP Academy.",
+  bio: "Java Full Stack Developer and B.Tech CSE student trained at TAP Academy. Experienced in developing Spring Boot and Gemini AI web applications, REST APIs, and responsive frontends with a strong foundation in Java, OOP, DSA, and MySQL.",
+  summary: "Structured Java Full Stack background covering Java, OOP, Spring Boot, Hibernate, REST APIs, and MySQL at TAP Academy.",
   availability: "Immediate / Full-time Opportunities & Internships",
+  resumeUrl: "/resume.pdf",
 }
 
 export const academy = {
   name: "TAP Academy",
   url: "https://thetapacademy.com/",
   role: "Java Full Stack Developer Intern",
-  specialization: "Core Java, OOP, DSA, MySQL, HTML, CSS, JavaScript, Spring, and Hibernate",
+  specialization: "Java, OOP, DSA, MySQL, HTML, CSS, JavaScript, Spring, and Hibernate",
   period: "Jul 2026 – Present",
-  description: "Undergoing structured Java Full Stack training covering Core Java, OOP, DSA, MySQL, HTML, CSS, JavaScript, Spring, and Hibernate. Practicing problem-solving and Java-based coding to build a strong foundation in object-oriented programming, data structures, and database management.",
+  description: "Undergoing structured Java Full Stack training covering Java, OOP, DSA, MySQL, HTML, CSS, JavaScript, Spring, and Hibernate. Practicing problem-solving and Java-based coding to build a strong foundation in object-oriented programming, data structures, and database management.",
 }
 
 export const navLinks = [
@@ -45,7 +46,7 @@ export const skillCategories = [
     category: "PROGRAMMING & BACKEND",
     code: "BE-01",
     skills: [
-      { name: "Core Java", level: "Advanced", tag: "CORE" },
+      { name: "Java", level: "Advanced", tag: "CORE" },
       { name: "Spring Boot", level: "Proficient", tag: "BACKEND" },
       { name: "REST APIs", level: "Advanced", tag: "PROTOCOL" },
       { name: "Hibernate", level: "Proficient", tag: "ORM" },
@@ -85,25 +86,25 @@ export const projects = [
     number: "SYS-01",
     title: "CropGuard – Plant Disease Detection Web App",
     category: "AI & SPRING BOOT",
-    tagline: "Plant disease diagnosis web application powered by Java, Spring Boot, and Google Gemini API.",
-    description: "Developed a web application for plant disease detection using Java, Spring Boot, and the Gemini API. Built a diagnosis system that provides disease name, severity, treatment suggestions, medicine recommendations, and preventive measures from uploaded crop images. Created a REST endpoint (POST /analyze) with image upload, file type and size validation, and centralized JSON error handling. Implemented multilingual support in 8 Indian languages and text-to-speech for farmer accessibility. Designed a responsive interface using HTML, CSS, JavaScript, and Bootstrap with secured API keys.",
+    tagline: "Plant health powered by AI: Detect. Diagnose. Protect.",
+    description: "Built a web application that analyzes uploaded crop images using Java, Spring Boot, and the Gemini API. Provides comprehensive disease diagnosis, severity levels, treatment suggestions, medicine recommendations, and preventive measures. Implements a dedicated REST endpoint (POST /analyze) with image validation and centralized JSON error handling, alongside 8 Indian language options with text-to-speech for farmers.",
     tags: ["Java", "Spring Boot", "REST API", "Gemini API", "JavaScript", "Bootstrap", "MySQL"],
-    metrics: "8 Indian Languages // Text-to-Speech // POST /analyze REST API",
-    repoUrl: "https://github.com/Talimuddin",
-    liveUrl: "https://github.com/Talimuddin",
+    metrics: "POST /analyze REST Endpoint // 8 Indian Languages // Text-to-Speech",
+    repoUrl: "https://github.com/Talimuddin/CropGuard",
+    liveUrl: "https://github.com/Talimuddin/CropGuard",
     highlight: true,
   },
   {
     id: "project-2",
     number: "SYS-02",
     title: "Tic-Tac-Toe Game",
-    category: "CORE JAVA & OOP",
-    tagline: "Console-based strategic game in Java applying OOP inheritance and polymorphism.",
-    description: "Developed a console-based Tic-Tac-Toe game in Java, allowing a human player to compete against a computer opponent. Applied object-oriented programming using an abstract Player class and separate human and computer player implementations. Implemented inheritance and method overriding to support different player behaviors through a common abstraction. Developed game logic to validate moves, track board positions, detect winning combinations, and identify draw conditions with a random-move computer opponent.",
+    category: "JAVA & OOP DESIGN",
+    tagline: "Console-based strategic game applying object-oriented design and reusable player abstractions.",
+    description: "Developed a console-based game in Java where a human player competes against an automated computer opponent. Designed with an abstract Player class and specialized human/computer subclasses. Implements method overriding, move validation, win detection algorithms, and draw condition handling with random valid move selection.",
     tags: ["Java", "OOP", "Inheritance", "Polymorphism", "Game Logic", "Console"],
-    metrics: "Abstract Player Class // Move Validation // Random AI Opponent",
-    repoUrl: "https://github.com/Talimuddin",
-    liveUrl: "https://github.com/Talimuddin",
+    metrics: "Abstract Player Class // Inheritance & Overriding // Move Validation",
+    repoUrl: "https://github.com/Talimuddin/Java-Tic-Tac-Toe",
+    liveUrl: "https://github.com/Talimuddin/Java-Tic-Tac-Toe",
     highlight: false,
   },
   {
@@ -111,8 +112,8 @@ export const projects = [
     number: "SYS-03",
     title: "Signal HUD Developer Portfolio",
     category: "FRONTEND & MOTION",
-    tagline: "High-performance developer portfolio engineered with React 19, Three.js, GSAP, and Tailwind CSS v4.",
-    description: "Built during placement training at TAP Academy. Implements custom smooth scrolling with Lenis, an interactive 3D particle core via Three.js, Tailwind v4 design tokens, and a reactive HUD telemetry overlay showcasing full-stack Java and web capabilities.",
+    tagline: "High-performance developer terminal engineered with React 19, Three.js, GSAP, and Tailwind CSS v4.",
+    description: "Engineered during training at TAP Academy. Implements custom smooth scrolling with Lenis, an interactive 3D particle core via Three.js, Tailwind v4 design tokens, and a reactive HUD telemetry overlay showcasing full-stack Java and web capabilities.",
     tags: ["React 19", "Three.js", "GSAP", "Tailwind CSS v4", "Lenis"],
     metrics: "60 FPS Three.js Canvas // 100 Lighthouse Performance",
     repoUrl: "https://github.com/Talimuddin/my-portfolio",
@@ -129,8 +130,8 @@ export const journey = [
     organization: "TAP Academy",
     orgUrl: "https://thetapacademy.com/",
     badge: "ACTIVE INTERNSHIP",
-    description: "Undergoing structured Java Full Stack training covering Core Java, OOP, DSA, MySQL, HTML, CSS, JavaScript, Spring, and Hibernate. Practicing problem-solving and Java-based coding to build a strong foundation in object-oriented programming, data structures, and database management. Learning backend development and frontend integration to understand the complete lifecycle of Java Full Stack web applications.",
-    skillsAcquired: ["Core Java", "OOP & DSA", "MySQL", "Spring & Hibernate", "REST APIs", "Full Stack Lifecycle"],
+    description: "Undergoing structured Java Full Stack training covering Java, OOP, DSA, MySQL, HTML, CSS, JavaScript, Spring, and Hibernate. Practicing problem-solving and Java-based coding to build a strong foundation in object-oriented programming, data structures, and database management. Learning backend development and frontend integration to understand the complete lifecycle of Java Full Stack web applications.",
+    skillsAcquired: ["Java", "OOP & DSA", "MySQL", "Spring & Hibernate", "REST APIs", "Full Stack Lifecycle"],
   },
   {
     id: "j-2",
@@ -149,7 +150,7 @@ export const journey = [
     organization: "Guru Gobind Singh Educational Society’s Technical Campus",
     badge: "CGPA: 7.05",
     description: "Pursuing Bachelor of Technology in Computer Science and Engineering at Bokaro, Jharkhand. Strong academic foundation in software methodologies, algorithms, object-oriented systems, and relational databases.",
-    skillsAcquired: ["Core Computer Science", "Algorithms", "Database Systems", "Operating Systems", "Networking"],
+    skillsAcquired: ["Computer Science", "Algorithms", "Database Systems", "Operating Systems", "Networking"],
   },
 ]
 
@@ -158,9 +159,11 @@ export const contactInfo = {
   subheading: "Send an encrypted signal or schedule a technical discussion.",
   channels: [
     { label: "DIRECT EMAIL", value: "talimuddin2000@gmail.com", href: "mailto:talimuddin2000@gmail.com" },
-    { label: "PHONE / WHATSAPP", value: "+91 7654626537", href: "tel:7654626537" },
+    { label: "PHONE CALL", value: "+91 7654626537", href: "tel:7654626537" },
+    { label: "WHATSAPP COMM", value: "+91 7654626537", href: "https://wa.me/917654626537" },
     { label: "LINKEDIN NETWORK", value: "linkedin.com/in/talimuddin-4725292b3", href: "https://www.linkedin.com/in/talimuddin-4725292b3/" },
     { label: "GITHUB PROFILE", value: "github.com/Talimuddin", href: "https://github.com/Talimuddin" },
+    { label: "OFFICIAL RESUME", value: "View / Download PDF", href: "/resume.pdf" },
     { label: "ACADEMY AFFILIATION", value: "TAP Academy Intern", href: "https://thetapacademy.com/" },
   ],
   telemetry: {
