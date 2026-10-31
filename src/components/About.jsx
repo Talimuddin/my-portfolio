@@ -72,13 +72,13 @@ export default function About() {
           <div className="lg:col-span-7 space-y-10">
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold text-bone font-sans tracking-tight mb-4">
-                ENGINEERING HIGH-SPEED WEB PLATFORMS & AUGMENTED EXPERIENCES
+                JAVA FULL STACK ENGINEERING & AI-POWERED WEB SOLUTIONS
               </h2>
               <p className="text-dim text-base font-sans leading-relaxed mb-4">
                 {personal.bio}
               </p>
               <p className="text-dim text-base font-sans leading-relaxed">
-                Trained through rigorous software engineering bootcamps at {academy.name}, specializing in high-throughput frontend ecosystems, component architecture, responsive spatial 3D interfaces, and modern full-stack workflows.
+                Undergoing structured Java Full Stack training at {academy.name}, mastering Core Java, Object-Oriented Programming (OOP), Data Structures & Algorithms, Spring Boot, Hibernate, and full-lifecycle web application engineering.
               </p>
             </div>
 

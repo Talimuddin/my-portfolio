@@ -168,7 +168,7 @@ export default function Hero() {
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-2 px-3 py-1 bg-signal/10 border border-signal/30 text-signal font-mono text-xs uppercase tracking-widest">
               <span className="w-1.5 h-1.5 rounded-full bg-signal animate-ping" />
-              <span>Full-Stack Engineering // AR Placement Trainee</span>
+              <span>{personal.role.toUpperCase()} // TAP ACADEMY INTERN</span>
             </div>
 
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-bone font-sans leading-[1.05]">
